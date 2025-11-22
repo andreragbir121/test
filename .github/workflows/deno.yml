@@ -15,7 +15,7 @@ jobs:
         run: |
           set -euo pipefail
           test -f index.html
-          test -f style.css
+          test -f styles.css
           test -f script.js
 
       - name: Basic HTML checks
